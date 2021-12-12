@@ -2,6 +2,10 @@
 
 [![Linkedin](https://i.stack.imgur.com/gVE0j.png) LinkedIn](https://www.linkedin.com/in/maxime-thomassin/)
 
+> > Blessed are the curious for they will have adventures
+
+## What I do as a Flight Operations Software Engineer at RocketLab 🚀👩🏽‍🚀🤘🏽
+![image](ThisIsFine.png)
 ---
 
 🧰 Toolbox
@@ -16,8 +20,6 @@
 ![image](https://user-images.githubusercontent.com/26239574/114872432-5630f080-9dc8-11eb-9593-eacbf47f8b91.png)
 ![image](https://user-images.githubusercontent.com/26239574/114872541-719bfb80-9dc8-11eb-993a-8ccfd8a45f27.png)
 ![image](https://user-images.githubusercontent.com/26239574/114872569-782a7300-9dc8-11eb-9f56-46a108772275.png)
----
-
 ---
 
 ## &#x1f4c8; My GitHub Stats
