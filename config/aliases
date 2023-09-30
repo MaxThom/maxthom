@@ -1,0 +1,10 @@
+alias k="kubectl"
+alias kctx="kubectl ctx"
+alias kns="kubectl ns"
+alias ktop="kubectl ktop"
+alias vim="nvim"
+alias v="nvim"
+
+export XDG_CONFIG_HOME="$HOME/.config"
+
+eval "$(starship init bash)"
