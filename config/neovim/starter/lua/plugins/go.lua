@@ -115,10 +115,10 @@ return {
     },
   },
 
-  --{
-  -- "leoluz/nvim-dap-go",
-  -- config = true,
-  --  },
+  {
+    "leoluz/nvim-dap-go",
+     config = true,
+  },
 
   {
     "nvim-neotest/neotest",
@@ -139,4 +139,15 @@ return {
   {
     "nvim-neotest/neotest-go",
   },
+
+  {
+    "stevearc/conform.nvim",
+    optional = true,
+    opts = {
+      formatters_by_ft = {
+        go = { "goimports", "gofumpt" },
+      },
+    },
+  },
+
 }
