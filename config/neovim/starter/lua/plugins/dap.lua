@@ -2,6 +2,9 @@ return {
   "mfussenegger/nvim-dap",
 
   dependencies = {
+    {
+      require("dap.ext.vscode").load_launchjs(),
+    },
 
     -- fancy UI for the debugger
     {
@@ -16,6 +19,16 @@ return {
         -- setup dap config by VsCode launch.json file
         -- require("dap.ext.vscode").load_launchjs()
         local dap = require("dap")
+
+        dap.configurations.go = {
+          {
+            type = "go",
+            name = "snet",
+            request = "launch",
+            program = "${workspaceFolder}/snet/main.go",
+          },
+        }
+
         local dapui = require("dapui")
         dapui.setup(opts)
         dap.listeners.after.event_initialized["dapui_config"] = function()
