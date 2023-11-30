@@ -68,6 +68,13 @@ return {
           adapter = adapter,
         },
         tools = {
+          inlay_hints = {
+            auto = true,
+            show_parameter_hints = false,
+            parameter_hints_prefix = "<-",
+            other_hints_prefix = "=>",
+            only_current_line = true,
+          },
           on_initialized = function()
             vim.cmd([[
                   augroup RustLSP
