@@ -4,3 +4,9 @@
 
 local opt = vim.opt
 opt.relativenumber = false
+
+vim.filetype.add({
+  extension = {
+    templ = "templ",
+  },
+})
