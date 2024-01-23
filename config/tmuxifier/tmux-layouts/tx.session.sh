@@ -1,22 +1,19 @@
 # Set a custom session root path. Default is `$HOME`.
 # Must be called before `initialize_session`.
-session_root "~/code/go/mir"
+session_root "$TMUXIFIER_LAYOUT_PATH"
 
 # Create session with specified name if it does not already exist. If no
 # argument is given, session name will be based on layout file name.
-if initialize_session "mir"; then
+if initialize_session "tx"; then
 
 	# Create a new window inline within session layout definition.
 	#new_window "misc"
 
 	# Load a defined window layout.
-	load_window "mir"
-	load_window "nats"
-	load_window "questdb"
-	load_window "promstack"
+	load_window "tx"
 
 	# Select the default active window on session creation.
-	select_window 1
+	#select_window 1
 
 fi
 
